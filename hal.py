@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################
-######## Red - Discord bot #####
+######## HAL - Discord bot #####
 ################################
-#		 made by Twentysix
+#		 made by AnsonRS & Green L.E.D.
 #
 #
 
