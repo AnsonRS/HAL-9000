@@ -1558,7 +1558,7 @@ async def join(message):
 		else:
 			logger.warning("Join: missing parameters")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def leave(message):
 	if isMemberAdmin(message):
@@ -1726,7 +1726,7 @@ async def cleanup(message):
 		else:
 			await client.send_message(message.channel, "`I need permissions to delete messages.`")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.id))
+		await client.send_message(message.channel, "`Im sorry @{} I'm afraid I can't do that.`".format(message.author.name))
 
 def isMemberAdmin(message):
 	if not message.channel.is_private:
