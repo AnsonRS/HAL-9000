@@ -1,7 +1,7 @@
 @Echo off
 :Start
 
-python red.py
+python hal.py
 timeout 2
 
 goto Start
