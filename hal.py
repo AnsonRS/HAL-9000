@@ -1541,7 +1541,7 @@ async def downloadMode(message):
 			await(client.send_message(message.channel, "`Download mode enabled.`"))
 		dataIO.fileIO("json/settings.json", "save", settings)
 	else:
-		await(client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.name)))
+		await(client.send_message(message.channel, "`Im sorry {} I'm afraid I cant do that.`".format(message.author.name)))
 
 ############## ADMIN COMMANDS ###################
 
@@ -1733,7 +1733,7 @@ async def cleanup(message):
 		else:
 			await client.send_message(message.channel, "`I need permissions to delete messages.`")
 	else:
-		await client.send_message(message.channel, "`Im sorry @" + message.author.id + I'm afraid I can't do that."
+		await client.send_message(message.channel, "`Im sorry @" + message.author.id + "I'm afraid I can't do that."
 
 def isMemberAdmin(message):
 	if not message.channel.is_private:
