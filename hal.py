@@ -1558,14 +1558,14 @@ async def join(message):
 		else:
 			logger.warning("Join: missing parameters")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.name))
+		await client.send_message(message.channel, "`Im sorry @{} I'm afraid I can't do that.`".format(message.author.name))
 
 async def leave(message):
 	if isMemberAdmin(message):
 		await client.send_message(message.channel, "`Bye.`")
 		await client.leave_server(message.channel.server)
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await(client.send_message(message.channel, "`Im sorry @{} I'm afraid I can't do that.`".format(message.author.name)))
 
 async def shush(message):
 	global shush_list
@@ -1575,7 +1575,7 @@ async def shush(message):
 		dataIO.fileIO("json/shushlist.json", "save", shush_list)
 		logger.info("Saved silenced channels database.")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await(client.send_message(message.channel, "`Im sorry @{} I'm afraid I can't do that.`".format(message.author.name)))
 
 async def talk(message):
 	if isMemberAdmin(message):
@@ -1726,7 +1726,7 @@ async def cleanup(message):
 		else:
 			await client.send_message(message.channel, "`I need permissions to delete messages.`")
 	else:
-		await client.send_message(message.channel, "`Im sorry @{} I'm afraid I can't do that.`".format(message.author.name))
+		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 def isMemberAdmin(message):
 	if not message.channel.is_private:
@@ -1817,7 +1817,7 @@ async def blacklist(message, mode):
 				return False
 		dataIO.fileIO("json/blacklist.json", "save", blacklisted_users)
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def modifySettings(message):
 	global settings
@@ -1857,7 +1857,7 @@ async def modifySettings(message):
 			msg += settings["PREFIX"] + "setting [setting] [value]"
 			await client.send_message(message.channel, msg)
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await(client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.name)))
 
 ################################################
 
