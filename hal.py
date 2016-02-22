@@ -56,7 +56,6 @@ def loadHelp():
 	{0}addcom [command] [text] - Add a custom command
 	{0}editcom [command] [text] - Edit a custom command
 	{0}delcom [command] - Delete a custom command
-
 	{0}meme help - Memes help
 	{0}audio help - Audio related commands
 	{0}economy - Economy explanation, if available
@@ -76,7 +75,6 @@ def loadHelp():
 	{0}stop - Stop any voice channel activity
 	{0}volume [0-1] - Sets the volume
 	{0}downloadmode - Disables/enables download mode (admin only)
-
 	**Playlist commands:**
 	{0}play [playlist_name] - Play chosen playlist
 	{0}playlists - Playlists' list
@@ -84,16 +82,13 @@ def loadHelp():
 	{0}addplaylist [name] [link] - Add a youtube playlist. Link format example: https://www.youtube.com/playlist?list=PLe8jmEHFkvsaDOOWcREvkgFoj6MD0pXXX
 	{0}delplaylist [name] - Delete a youtube playlist. Limited to author and admins.
 	{0}getplaylist - Receive the current playlist through DM. This also works with favorites.
-
 	**Local commands:**
 	{0}local [playlist_name] - Play chosen local playlist
 	{0}locallist or {0}local or {0}locals - Local playlists' list
-
 	**Favorites:**
 	{0}addfavorite - Add song to your favorites
 	{0}delfavorite - Remove song from your favorites
 	{0}playfavorites - Play your favorites
-
 	**You can submit your own playlist by doing the following:**
 	1) Make a txt file. Name must be only letters, numbers and underscores. It will be your playlist's name, so choose wisely.
 	2) One youtube link each line.
@@ -105,7 +100,6 @@ def loadHelp():
 	Usage example:
 	One-Does-Not-Simply 	Template ID: 61579
 	{0}meme 61579;Test;Test
-
 	Memes list:
 	ID		Name
 	61579	One Does Not Simply
@@ -152,7 +146,6 @@ def loadHelp():
 	101711	Skeptical Baby	
 	101716	Yo Dawg Heard You	
 	101511	Dont You Squidward
-
 	For more memes: `https://imgflip.com/memetemplates`
 	Choose a meme, click on "Blank Template" then add the ID
 	""".format(settings["PREFIX"])
@@ -1541,7 +1534,7 @@ async def downloadMode(message):
 			await(client.send_message(message.channel, "`Download mode enabled.`"))
 		dataIO.fileIO("json/settings.json", "save", settings)
 	else:
-		await(client.send_message(message.channel, "`Im sorry {} I'm afraid I cant do that.`".format(message.author.name)))
+		await(client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.name)))
 
 ############## ADMIN COMMANDS ###################
 
@@ -1733,7 +1726,7 @@ async def cleanup(message):
 		else:
 			await client.send_message(message.channel, "`I need permissions to delete messages.`")
 	else:
-		await client.send_message(message.channel, "`Im sorry @" + message.author.id + "I'm afraid I can't do that."
+		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.id))
 
 def isMemberAdmin(message):
 	if not message.channel.is_private:
