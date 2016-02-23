@@ -434,7 +434,7 @@ def loggerSetup():
 	handler = logging.StreamHandler()
 	handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)s: %(message)s', datefmt="[%d/%m/%Y %H:%M]"))
 	logger.addHandler(handler)
-	file_handler = logging.FileHandler(filename="red.log", mode='a')
+	file_handler = logging.FileHandler(filename="hal.log", mode='a')
 	file_formatter = logging.Formatter('%(asctime)s %(levelname)s: %(message)s', datefmt="[%d/%m/%Y %H:%M]")
 	file_handler.setFormatter(file_formatter)
 	logger.addHandler(file_handler)
