@@ -1,0 +1,1 @@
+watch -n 1 sudo python3 /home/fizl/Desktop/hal.py
