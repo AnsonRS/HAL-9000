@@ -1,0 +1,1470 @@
+
++------
+------+
++------
++
+---------
+ Starting Hal startup loop. ctrl+c ctrl+c to stop. should also !shutdown bot on discord.
+ ---------
++------
+------+
++------
++------
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7ff4ca107dd8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fc01cbc0550>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f5cee0e27b8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fd8a979ddd8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f8ffc4de7b8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fea16189dd8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f9a82ca6dd8>
+
++------
+------+
++------
++
+---------
+ Starting Hal startup loop. ctrl+c ctrl+c to stop. should also !shutdown bot on discord.
+ ---------
++------
+------+
++------
++------
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fee39771dd8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fdc1e75ddd8>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f9f05e36dd8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f2db3deb780>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7ff0c7e82dd8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f38f0074780>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f12b9ed47b8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f917b3c5dd8>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fb8a2f4f780>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f84256ed7b8>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f204b465780>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f5fdde36dd8>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f63f18697b8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f8a598f3dd8>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f1f9cf03dd8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f7bfea447b8>
+Traceback (most recent call last):
+  File "hal.py", line 14, in <module>
+    import requests
+  File "/usr/local/lib/python3.5/site-packages/requests/__init__.py", line 58, in <module>
+    from . import utils
+  File "/usr/local/lib/python3.5/site-packages/requests/utils.py", line 26, in <module>
+    from .compat import parse_http_list as _parse_list_header
+  File "/usr/local/lib/python3.5/site-packages/requests/compat.py", line 53, in <module>
+    from http import cookiejar as cookielib
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 658, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 762, in get_code
+  File "<frozen importlib._bootstrap_external>", line 473, in _compile_bytecode
+KeyboardInterrupt
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fdc526cedd8>
+
++------
+------+
++------
++
+---------
+ Starting Hal startup loop. ctrl+c ctrl+c to stop. should also !shutdown bot on discord.
+ ---------
++------
+------+
++------
++------
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f6701ecddd8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f6b63a0ddd8>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fdce5649dd8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f88aa63d7b8>
+
++------
+------+
++------
++
+---------
+ Starting Hal startup loop. ctrl+c ctrl+c to stop. should also !shutdown bot on discord.
+ ---------
++------
+------+
++------
++------
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f44a56835f8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f187456e7b8>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f098ac4c7b8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f902d824dd8>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fa314e1b6d8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f49d3f3b7b8>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fbad8189dd8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fd45d762dd8>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7ffba870add8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f01b54057b8>
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fa867d34dd8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fd7fd04fc88>
+
++------
+------+
++------
++
+---------
+ Starting Hal startup loop. ctrl+c ctrl+c to stop. should also !shutdown bot on discord.
+ ---------
++------
+------+
++------
++------
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f94eaba17b8>
+
++
++
++
++
+--------- Starting Hal.py ---------
++
++
++
++
+Traceback (most recent call last):
+  File "hal.py", line 2046, in <module>
+    loop.run_until_complete(main())
+  File "/usr/local/lib/python3.5/asyncio/base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/local/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+  File "hal.py", line 2001, in main
+    logger = loggerSetup()
+  File "hal.py", line 435, in loggerSetup
+    handler = logging.FileHandler(filename='wrapper.log', encoding='utf-8', mode='a')
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1008, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.5/logging/__init__.py", line 1037, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/home/anson/Desktop/HAL-9000/wrapper.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "hal.py", line 2050, in <module>
+    logger.error(e)
+NameError: name 'logger' is not defined
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7ff12cc60dd8>

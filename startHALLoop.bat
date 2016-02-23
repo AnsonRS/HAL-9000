@@ -1,7 +1,7 @@
 @Echo off
 :Start
 
-python hal.py
+py /home/anson/Desktop/HAL-9000/hal.py
 timeout 2
 
 goto Start
