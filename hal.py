@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################
-######## HAL-9000 - Discord bot #####
+######## Red - Discord bot #####
 ################################
-#		 made by Green L.E.D. & AnsonRS
+#		 made by Twentysix
 #
 #
 
@@ -1270,10 +1270,8 @@ async def playPlaylist(message, sing=False):
 	else:
 		if await checkVoice(message):
 			stopMusic()
-			msg = ["Sure why not? :microphone:", "*starts singing* :microphone:", "*starts humming* :notes:"]
-			playlist = ["https://www.youtube.com/watch?v=zGTkAVsrfg8", "https://www.youtube.com/watch?v=cGMWL8cOeAU",
-						"https://www.youtube.com/watch?v=vFrjMq4aL-g", "https://www.youtube.com/watch?v=WROI5WYBU_A",
-						"https://www.youtube.com/watch?v=41tIUr_ex3g", "https://www.youtube.com/watch?v=f9O2Rjn1azc"]
+			msg = ["*Oh Daisy..*"]
+			playlist = ["https://www.youtube.com/watch?v=E7WQ1tdxSqI"]
 			song = choice(playlist)
 			data = {"filename" : song, "type" : "singleSong"}
 			if settings["DOWNLOADMODE"]:
