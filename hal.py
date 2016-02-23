@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################
-######## HAL - Discord bot #####
+######## Red - Discord bot #####
 ################################
-#		 made by AnsonRS & Green L.E.D.
+#		 made by Twentysix
 #
 #
 
@@ -56,6 +56,7 @@ def loadHelp():
 	{0}addcom [command] [text] - Add a custom command
 	{0}editcom [command] [text] - Edit a custom command
 	{0}delcom [command] - Delete a custom command
+
 	{0}meme help - Memes help
 	{0}audio help - Audio related commands
 	{0}economy - Economy explanation, if available
@@ -75,6 +76,7 @@ def loadHelp():
 	{0}stop - Stop any voice channel activity
 	{0}volume [0-1] - Sets the volume
 	{0}downloadmode - Disables/enables download mode (admin only)
+
 	**Playlist commands:**
 	{0}play [playlist_name] - Play chosen playlist
 	{0}playlists - Playlists' list
@@ -82,13 +84,16 @@ def loadHelp():
 	{0}addplaylist [name] [link] - Add a youtube playlist. Link format example: https://www.youtube.com/playlist?list=PLe8jmEHFkvsaDOOWcREvkgFoj6MD0pXXX
 	{0}delplaylist [name] - Delete a youtube playlist. Limited to author and admins.
 	{0}getplaylist - Receive the current playlist through DM. This also works with favorites.
+
 	**Local commands:**
 	{0}local [playlist_name] - Play chosen local playlist
 	{0}locallist or {0}local or {0}locals - Local playlists' list
+
 	**Favorites:**
 	{0}addfavorite - Add song to your favorites
 	{0}delfavorite - Remove song from your favorites
 	{0}playfavorites - Play your favorites
+
 	**You can submit your own playlist by doing the following:**
 	1) Make a txt file. Name must be only letters, numbers and underscores. It will be your playlist's name, so choose wisely.
 	2) One youtube link each line.
@@ -100,6 +105,7 @@ def loadHelp():
 	Usage example:
 	One-Does-Not-Simply 	Template ID: 61579
 	{0}meme 61579;Test;Test
+
 	Memes list:
 	ID		Name
 	61579	One Does Not Simply
@@ -146,6 +152,7 @@ def loadHelp():
 	101711	Skeptical Baby	
 	101716	Yo Dawg Heard You	
 	101511	Dont You Squidward
+
 	For more memes: `https://imgflip.com/memetemplates`
 	Choose a meme, click on "Blank Template" then add the ID
 	""".format(settings["PREFIX"])
@@ -434,7 +441,7 @@ def loggerSetup():
 	handler = logging.StreamHandler()
 	handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)s: %(message)s', datefmt="[%d/%m/%Y %H:%M]"))
 	logger.addHandler(handler)
-	file_handler = logging.FileHandler(filename="hal.log", mode='a')
+	file_handler = logging.FileHandler(filename="red.log", mode='a')
 	file_formatter = logging.Formatter('%(asctime)s %(levelname)s: %(message)s', datefmt="[%d/%m/%Y %H:%M]")
 	file_handler.setFormatter(file_formatter)
 	logger.addHandler(file_handler)
@@ -1534,7 +1541,7 @@ async def downloadMode(message):
 			await(client.send_message(message.channel, "`Download mode enabled.`"))
 		dataIO.fileIO("json/settings.json", "save", settings)
 	else:
-		await(client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.name)))
+		await(client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name)))
 
 ############## ADMIN COMMANDS ###################
 
@@ -1548,7 +1555,7 @@ async def shutdown(message):
 			logger.info("Shutting down as requested by " + message.author.id + "...")
 			pass
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.name))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def join(message):
 	if isMemberAdmin(message):
@@ -1558,14 +1565,14 @@ async def join(message):
 		else:
 			logger.warning("Join: missing parameters")
 	else:
-		await client.send_message(message.channel, "`Im sorry @{} I'm afraid I can't do that.`".format(message.author.name))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def leave(message):
 	if isMemberAdmin(message):
 		await client.send_message(message.channel, "`Bye.`")
 		await client.leave_server(message.channel.server)
 	else:
-		await(client.send_message(message.channel, "`Im sorry @{} I'm afraid I can't do that.`".format(message.author.name)))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def shush(message):
 	global shush_list
@@ -1575,7 +1582,7 @@ async def shush(message):
 		dataIO.fileIO("json/shushlist.json", "save", shush_list)
 		logger.info("Saved silenced channels database.")
 	else:
-		await(client.send_message(message.channel, "`Im sorry @{} I'm afraid I can't do that.`".format(message.author.name)))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def talk(message):
 	if isMemberAdmin(message):
@@ -1585,7 +1592,7 @@ async def talk(message):
 			logger.info("Saved silenced channels database.")
 			await client.send_message(message.channel, "`Aaand I'm back.`")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def addBadWords(message):
 	global badwords
@@ -1605,7 +1612,7 @@ async def addBadWords(message):
 		else:
 			await client.send_message(message.channel, "`" + settings["PREFIX"] + "addwords [word1] [word2] [phrase/with/many/words] (...)`")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def removeBadWords(message):
 	global badwords
@@ -1627,7 +1634,7 @@ async def removeBadWords(message):
 		else:
 			await client.send_message(message.channel, "`" + settings["PREFIX"] + "removewords [word1] [word2] [phrase/with/many/words](...)`")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def changeName(message):
 	global settings
@@ -1641,7 +1648,7 @@ async def changeName(message):
 		else:
 			await client.send_message(message.channel, "`" + settings["PREFIX"] + "name [new name]`")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def addRegex(message):
 	global badwords_regex
@@ -1655,7 +1662,7 @@ async def addRegex(message):
 		dataIO.fileIO("json/regex_filter.json", "save", badwords_regex)
 		logger.info("Saved regex filter database.")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def removeRegex(message):
 	global badwords_regex
@@ -1671,14 +1678,14 @@ async def removeRegex(message):
 			else:
 				await client.send_message(message.channel, "`No match.`")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def reloadSettings(message):
 	if isMemberAdmin(message):
 		loadDataFromFiles(True)
 		await client.send_message(message.channel, "`Settings and files reloaded.`")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def cleanup(message):
 	errorMsg = "`" + settings["PREFIX"] + "cleanup [number] " + settings["PREFIX"] + "cleanup [name/mention] [number]`"
@@ -1726,7 +1733,7 @@ async def cleanup(message):
 		else:
 			await client.send_message(message.channel, "`I need permissions to delete messages.`")
 	else:
-		await client.send_message(message.channel, "Im sorry @{} I'm afraid I can't do that.".format(message.author.name))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 def isMemberAdmin(message):
 	if not message.channel.is_private:
@@ -1765,7 +1772,7 @@ async def addTwitchAlert(message):
 		else:
 			await client.send_message(message.channel, "`" + settings["PREFIX"] + "twitchalert [name]`")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def removeTwitchAlert(message):
 	global twitchStreams
@@ -1785,7 +1792,7 @@ async def removeTwitchAlert(message):
 		else:
 			await client.send_message(message.channel, "`" + settings["PREFIX"] + "stoptwitchalert [name]`")
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.mention))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def blacklist(message, mode):
 	global blacklisted_users
@@ -1817,7 +1824,7 @@ async def blacklist(message, mode):
 				return False
 		dataIO.fileIO("json/blacklist.json", "save", blacklisted_users)
 	else:
-		await client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.name))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 async def modifySettings(message):
 	global settings
@@ -1857,7 +1864,7 @@ async def modifySettings(message):
 			msg += settings["PREFIX"] + "setting [setting] [value]"
 			await client.send_message(message.channel, msg)
 	else:
-		await(client.send_message(message.channel, "`Im sorry {} I'm afraid I can't do that.`".format(message.author.name)))
+		await client.send_message(message.channel, "`I'm sorry {} I'm afraid I can't do that.`".format(message.author.name))
 
 ################################################
 
